@@ -15,7 +15,7 @@
     "lint:watch": "gulp watch:lint",
     "test": "make test",
     "test:watch": "make test-watch",
-    "prepublish": "npm run build && npm run test && npm run lint && exit 1",
+    "prepublish": "npm run build && npm run test && npm run lint",
     "precommit": "npm run lint"
   },
   "keywords": [
