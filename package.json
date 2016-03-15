@@ -31,7 +31,9 @@
     "README.md",
     "gulpfile.js",
     ".eslintrc.yml",
-    ".gitignore"
+    ".gitignore",
+    ".travis.yml",
+    "appveyor.yml"
   ],
   "license": "MIT",
   "repository": {
