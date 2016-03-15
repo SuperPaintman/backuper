@@ -1,0 +1,21 @@
+{
+  "source": "./development",
+  "destination": "./docs",
+  "includes": [
+    "backuper\\.js$"
+  ],
+  "index": "./README.md",
+  "package": "./package.json",
+  "test": {
+    "type": "mocha",
+    "source": "./development/test/",
+    "includes": [
+      "\\.js$"
+    ]
+  },
+  "plugins": [
+    { "name": "esdoc-es7-plugin" }
+  ],
+  "includeSource": true,
+  "lint": true
+}

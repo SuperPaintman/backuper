@@ -1,0 +1,14 @@
+# Modules
+node_modules/
+
+# Tests
+bin/test/
+
+# Coverage
+coverage/
+
+# Docs
+docs/
+
+# Logs
+*.log
